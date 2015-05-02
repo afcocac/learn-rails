@@ -66,6 +66,9 @@ GEM
     extlib (0.9.16)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     foundation-rails (5.5.1.1)
       railties (>= 3.1.0)
       sass (>= 3.3.0, < 3.5)
@@ -220,6 +223,7 @@ DEPENDENCIES
   better_errors
   byebug
   coffee-rails (~> 4.1.0)
+  figaro
   foundation-rails
   gibbon
   google_drive
